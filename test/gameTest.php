@@ -148,7 +148,7 @@ class gameTest extends PHPUnit_Framework_TestCase
 	 */
 	public function testSparesStrikeConbination()
 	{	
-		$this->fillRoll(6,10);//6 strikes (frame 0 - frame 5)
+		$this->fillRoll(6,10); //6 strikes (frame 0 - frame 5)
 		$this->fillRoll(2,5);// spare (frame 6 - frame 7)
 		$this->fillRoll(1,8);//frame 8 start
 		$this->fillRoll(1,1); 
