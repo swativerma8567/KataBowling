@@ -1,0 +1,13 @@
+{
+	"name":"KataBowling",
+	"description":"PHP unit testing for KataBowling",
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+	"autoload":{
+		"classmar":["src"]
+	}
+}
+
+
+
